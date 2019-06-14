@@ -7,7 +7,7 @@ Be sure to have enough mmds on hand!
 If you want to keep another rare, you can always remove that rare's line from the default state. If you want to trade rares that it is set to keep, you'll need to add a line to the default state, and a new state for the rare exchange. Use other states as reference.
 
 Requirements:
-Magtools
+Magtools: https://github.com/Mag-nus/Mag-Plugins/releases
 
 Keeps:
 All Prots
