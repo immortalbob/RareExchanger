@@ -1,0 +1,1727 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Condition_x0020_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Action_x0020_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Condition_x0020_Data" type="xs:string" minOccurs="0" />
+                <xs:element name="Action_x0020_Data" type="xs:string" minOccurs="0" />
+                <xs:element name="State" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Adherent's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Adherent's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Adherent's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Adherent's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Alchemist's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Alchemist's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Alchemist's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Alchemist's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Artificer's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Artificer's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Artificer's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Artificer's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt givep Baning to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Baning Pearls</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>All</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>ItemCountLE{Pearl of Pierce Baning;0}ItemCountLE{Pearl of Bludgeon Baning;0}ItemCountLE{Pearl of Blade Baning;0}ItemCountLE{Pearl of Acid Baning;0}ItemCountLE{Pearl of Flame Baning;0}ItemCountLE{Pearl of Frost Baning;0}ItemCountLE{Pearl of Lightning Baning;0}</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Baning Pearls</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Ben Ten's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Ben Ten's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Ben Ten's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Ben Ten's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Berzerker's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Berzerker's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Berzerker's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Berzerker's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Brawler's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Brawler's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Brawler's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Brawler's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Converter's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Converter's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Converter's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Converter's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt give Corruptor's Crystal to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Corruptor's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Corruptor's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Corruptor's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Deceiver's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Deceiver's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Deceiver's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Deceiver's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Fletcher's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Fletcher's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Ben Ten's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Ben Ten's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Artificer's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Artificer's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Hunter's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Hunter's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Physician's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Physician's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Oswald's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Oswald's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Brawler's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Brawler's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Zefir's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Zefir's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Any</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>ItemCountGE{Pearl of Flame Baning;1}ItemCountGE{Pearl of Pierce Baning;1}ItemCountGE{Pearl of Blade Baning;1}ItemCountGE{Pearl of Bludgeon Baning;1}ItemCountGE{Pearl of Acid Baning;1}ItemCountGE{Pearl of Frost Baning;1}ItemCountGE{Pearl of Lightning Baning;1}</Condition_x0020_Data>
+    <Action_x0020_Data>Baning Pearls</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Warrior's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Warrior's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Alchemist's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Alchemist's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Rogue's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Rogue's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Deceiver's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Deceiver's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Knight's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Knight's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Thorsten's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Thorsten's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Pearl of Swift Killing;1</Condition_x0020_Data>
+    <Action_x0020_Data>Pearl of Swift Killing</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Mage's Jewel;1</Condition_x0020_Data>
+    <Action_x0020_Data>Mage's Jewel</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Warrior's Jewel;1</Condition_x0020_Data>
+    <Action_x0020_Data>Warrior's Jewel</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Adherent's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Adherent's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Converter's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Converter's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Melee's Jewel;1</Condition_x0020_Data>
+    <Action_x0020_Data>Melee's Jewel</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Enchanter's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Enchanter's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Elysa's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Elysa's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Pearl of Hermetic Linking;1</Condition_x0020_Data>
+    <Action_x0020_Data>Pearl of Hermetic Linking</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>T'ing's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>T'ing's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Berzerker's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Berzerker's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Observer's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Observer's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Hieromancer's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Hieromancer's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Life Giver's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Life Giver's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Corruptor's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Corruptor's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountGE</Condition_x0020_Type>
+    <Action_x0020_Type>SetState</Action_x0020_Type>
+    <Condition_x0020_Data>Thief's Crystal;1</Condition_x0020_Data>
+    <Action_x0020_Data>Thief's Crystal</Action_x0020_Data>
+    <State>Default</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Elysa's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Elysa's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Elysa's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Elysa's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Enchanter's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Enchanter's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Enchanter's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Enchanter's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Fletcher's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Fletcher's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Fletcher's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Fletcher's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt givep Hiero to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Hieromancer's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Hieromancer's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Hieromancer's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Hunter's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Hunter's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Hunter's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Hunter's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Knight's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Knight's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Knight's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Knight's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt give Life Giver's Crystal to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Life Giver's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Life Giver's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Life Giver's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Mage's Jewel to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Mage's Jewel</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Mage's Jewel;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Mage's Jewel</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Melee's Jewel to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Melee's Jewel</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Melee's Jewel;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Melee's Jewel</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Observer's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Observer's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Observer's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Observer's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Oswald's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Oswald's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Oswald's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Oswald's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt givep Hermetic to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Pearl of Hermetic Linking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Pearl of Hermetic Linking;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Pearl of Hermetic Linking</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt givep Swift Killing to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Pearl of Swift Killing</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Pearl of Swift Killing;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Pearl of Swift Killing</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Physician's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Physician's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Physician's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Physician's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Rogue's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Rogue's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Rogue's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Rogue's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+4
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+/mt give Thief's Crystal to Rare Exchanger
+3
+73.693167813619
+-34.2029841105143
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Thief's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Thief's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Thief's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Thorsten's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Thorsten's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Thorsten's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Thorsten's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give T'ing's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>T'ing's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>T'ing's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>T'ing's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Warrior's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Warrior's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Warrior's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Warrior's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Warrior's Jewel to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Warrior's Jewel</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Warrior's Jewel;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Warrior's Jewel</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>Always</Condition_x0020_Type>
+    <Action_x0020_Type>EmbeddedNavRoute</Action_x0020_Type>
+    <Condition_x0020_Data>0</Condition_x0020_Data>
+    <Action_x0020_Data>[None]
+4
+uTank2 NAV 1.2
+1
+4
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Trade Note (250,000) to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+4
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+/mt give Zefir's Crystal to Rare Exchanger
+3
+73.6874163945516
+-34.2034241994222
+0.10669375260671
+0
+2000
+</Action_x0020_Data>
+    <State>Zefir's Crystal</State>
+  </table>
+  <table>
+    <Condition_x0020_Type>ItemCountLE</Condition_x0020_Type>
+    <Action_x0020_Type>Multiple</Action_x0020_Type>
+    <Condition_x0020_Data>Zefir's Crystal;0</Condition_x0020_Data>
+    <Action_x0020_Data>EmbeddedNavRoute{[None]
+0
+uTank2 NAV 1.2
+1
+0
+}SetState{Default}</Action_x0020_Data>
+    <State>Zefir's Crystal</State>
+  </table>
+</NewDataSet>
